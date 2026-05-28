@@ -1,23 +1,10 @@
 # docsify-local-cdn
 
-A local CDN with assets (CSS/JS) used by `*-guide` projects, allowing offline work.
-
-## Running the local server
-
-```bash
-# convert to PDF
-npx docsify-pdf-converter
-
-# start the server (port 3000)
-npx docsify serve .
-npx serve .
-npx http-server -c-1 .
-npx browser-sync start --server --no-ui --no-open --directory --serveStatic .
-```
+A local CDN with assets (CSS/JS), allowing offline work.
 
 ## Replacing paths in `index.html`
 
-In each `*-guide` project, replace CDN paths with local ones:
+Replace CDN paths with local ones:
 
 | CDN                          | Local                                              |
 | ---------------------------- | -------------------------------------------------- |
